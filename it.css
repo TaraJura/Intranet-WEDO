@@ -1,0 +1,26 @@
+
+#odkazy {
+    text-align: center;
+}
+
+#tabulka {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+}
+tr {
+    background-color: teal;
+}
+
+th {
+    background-color: thistle;
+}
+
+td {
+    background-color: tomato;
+}
+
+tr, th ,td {
+    width: 20%;
+    height: 20%;
+}

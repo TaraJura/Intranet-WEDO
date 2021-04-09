@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WEDO-Intranet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/home.css" rel="stylesheet">
+  <script src="js/home.js"></script>
+</head>
+<body>
+    <img id="logo" src="img/logo-dark.png" alt="logo">
+    <a href="obchod.html">
+    <div id="oddeleni1">
+        <h1>OB</h1>
+        <p>Obchodní oddělení</p>
+    </div>
+    </a>
+
+    <a href="zak.html">
+    <div id="oddeleni2">
+        <h1>ZAK</h1>
+        <p>Zákaznický Servis</p>
+    </div>
+    </a>
+
+    <div id="oddeleni3" onclick="heslo()" >
+        <h1>IT</h1>
+        <p>Technická Podpora</p>
+    </div>
+
+    <div id="ithiden">
+            <li><h1>Zadej Heslo</h1></li>
+            <br>
+            <li><input id="input1"></li>
+            <li><button onclick="gotoit()">OK</button></li>
+            <br>
+            <li><button onclick="zpet()">zpět</button></li>
+    </div>
+
+    <a href="finance.html">
+    <div id="oddeleni4">
+            <h1>FIN</h1>
+            <p>Finanční oddělení</p>
+    </div>
+    </a>
+
+    <a href="dispeceri.html">
+        <div id="oddeleni5">
+                <h1>DISP</h1>
+                <p>Dispečeři</p>
+        </div>
+        </a>
+</body>
+
+</html>
